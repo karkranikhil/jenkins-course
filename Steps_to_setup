@@ -1,0 +1,11 @@
+1) Login into digital ocean
+
+2) open terminal type 
+  
+    sudo ssh root@ip
+
+3) lets setup the docker and jenkins in the droplet
+  
+    sudo wget https://raw.githubusercontent.com/karkranikhil/jenkins-course/master/scripts/install_jenkins.sh
+
+    then type sudo bash install_jenkins.sh
